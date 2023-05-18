@@ -1,0 +1,15 @@
+/* in a css module you cannot put element selectors */
+
+/* body{
+    background-color: green;
+}
+
+p {
+    color: yellow
+} */
+
+
+
+.yellowText {
+    color: yellow
+}
