@@ -21,7 +21,7 @@ export default function Home() {
       <main className={`${styles.main}`}>
         <header>
           <h1>{`Andrew Bantly`}</h1>
-          <p className={`${styles.headline}`}>Software engineer</p>
+          <p className={`${styles.headline}`}>A software engineer who is building his portfolio</p>
         </header>
         <div className={`${styles.flex}`}>
         <About></About>

@@ -1,3 +1,9 @@
-.link {
+.container {
+    width: 30%;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+}
+.column {
+    flex-direction: column-reverse;
     color: pink;
   }
