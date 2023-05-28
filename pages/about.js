@@ -26,7 +26,9 @@ export default function About() {
             height={400}
             style={{
               "border-radius": "50%",
-              "border": "3px solid #d1d1d1"
+              "border": "3px solid #d1d1d1",
+              "width": "10rem",
+              "height": "10rem" 
             }}
           />
           </div>
