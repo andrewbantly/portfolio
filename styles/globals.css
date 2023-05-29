@@ -6,10 +6,10 @@ h1 {
   color: #FD5A1E;
   font-size: 6rem;
   margin: 0;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
 }
 h2{
-  color: #9999a0;
+  color: #9ba099;
   margin: 1rem 0;
 }
 a {

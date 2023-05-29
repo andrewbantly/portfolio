@@ -30,14 +30,14 @@
 .fontSizeButton {
     background-color: #27251F;
     display: block;
-    border: 1px solid rgb(154, 154, 0);
-    color: rgb(154, 154, 0);
+    border: 1px solid #16b900;
+    color: #16b900;
     border-radius: 4px;
 }
 .fontSizeButton:hover{
     cursor: pointer;
 }
 .biggerText {
-    color: yellow
+    color: #d1d1d1;
 }
 
