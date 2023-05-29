@@ -8,6 +8,7 @@
 .headline { 
   font-size: 2rem;
   margin: 0;
+  border: 3px solid green;
 }
 
 .headshotWrapper {

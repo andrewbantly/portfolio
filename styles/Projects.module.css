@@ -1,0 +1,31 @@
+.container {
+    width: 55%;
+    margin: 0 auto 0 0;
+    /* border: 3px solid yellow; */
+}
+
+.column {
+    flex-direction: column-reverse;
+    color: pink;
+}
+.projectHeader {
+    margin-bottom: 0;
+}
+
+.techContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.technologies {
+    border: 1px solid rgb(88, 183, 255);
+    color: rgb(88, 183, 255);
+    border-radius: 4px;
+    margin: 0.2rem 0.4rem 0.2rem 0;
+    padding: 0 0.2rem;
+    display: inline;
+    width: fit-content;
+}
+.projectDescription {
+    margin-top: 0.1rem;
+}

@@ -24,8 +24,8 @@ export default function Home() {
           <p className={`${styles.headline}`}>A software engineer who is building his portfolio</p>
         </header>
         <div className={`${styles.flex}`}>
-        <About></About>
         <Projects></Projects>
+        <About></About>
         </div>
       </main>
     </>
