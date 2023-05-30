@@ -3,3 +3,10 @@
     right: 2rem;
     text-align: right;
 }
+.contactInfo {
+    font-size: 1rem;
+    margin: .75rem 0;
+}
+.contactLinks {
+    color: rgb(88, 183, 255) !important;
+}

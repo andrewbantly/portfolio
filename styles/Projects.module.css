@@ -6,7 +6,8 @@
 
 .column {
     flex-direction: column-reverse;
-    color: pink;
+    /* color: rgb(232, 115, 115); */
+    color: rgb(244, 93, 93);
 }
 .projectHeader {
     margin-bottom: 0;

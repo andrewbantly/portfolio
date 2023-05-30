@@ -25,3 +25,8 @@ nav {
   margin-left: 2rem;
   font-family: 'Rajdhani', sans-serif;
 }
+footer {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+}

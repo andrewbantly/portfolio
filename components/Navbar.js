@@ -1,4 +1,5 @@
 // built in link component to link to routes
+// to reapply the nav bar, uncomment the navbar.js and <Navbar> in '_document.js'
 import Link from "next/link"
 
 export default function Navbar(){
