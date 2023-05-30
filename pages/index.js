@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Projects from './projects'
 import About from './about'
+import Contact from '@/components/Contact.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,12 +21,15 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
         <header>
-          <h1>{`Andrew Bantly`}</h1>
-          <p className={`${styles.headline}`}>A software engineer who is building his portfolio</p>
+          <div>
+            <h1>{`Andrew Bantly`}</h1>
+            <p className={`${styles.headline}`}>A software engineer who is building his portfolio</p>
+          </div>
+          <Contact />
         </header>
         <div className={`${styles.flex}`}>
-        <Projects></Projects>
-        <About></About>
+          <Projects></Projects>
+          <About></About>
         </div>
       </main>
     </>

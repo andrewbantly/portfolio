@@ -2,6 +2,10 @@ body {
   background-color: #27251F;
   color: #d1d1d1;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+}
 h1 {
   color: #FD5A1E;
   font-size: 6rem;
