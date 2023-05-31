@@ -5,12 +5,10 @@
 
 .column {
     flex-direction: column-reverse;
-    /* color: rgb(232, 115, 115); */
-    /* color: #96736f; just a tad too dark*/
     color: #b69c99;
 }
 .projectHeader {
-    margin-bottom: 0;
+    margin: 0;
     display: inline-block;
 }
 
@@ -22,8 +20,6 @@
 .technologies {
     border: 1px solid rgb(43, 142, 219);
     color: rgb(43, 142, 219);
-    /* border: 1px solid rgb(88, 183, 255);
-    color: rgb(88, 183, 255); */
     border-radius: 4px;
     margin: 0.2rem 0.4rem 0.2rem 0;
     padding: 0 0.2rem;
@@ -41,12 +37,4 @@
         width: 100%;
         margin: 0;
     }
-    .projectHeader {
-        margin-top: 0.2rem;
-    }
 }
-@media screen and (max-width: 430px) {
-    .projectHeader {
-        margin-top: 0;
-    }
-  }

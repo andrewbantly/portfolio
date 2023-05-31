@@ -1,11 +1,16 @@
 // @ means start in the project root directory (aka where the package.json)
 import styles from "@/styles/About.module.css";
-import { useState } from "react"
+import { useEffect, useState } from "react"
 // special nextJs images that speed up SSR caching (render faster)
 import Image from "next/image"
 
 export default function About() {
     const [fontSize, setFontSize] = useState(1)
+
+    useEffect(() => {
+        console.log(fontSize)
+    }, [])
+
     return (
         <div className={`${styles.container}`}>
             {/* styles jsx example */}
@@ -16,7 +21,6 @@ export default function About() {
                     }
                 `}
             </style>
-            {/* <div className={`${styles.aboutHeaderContainer}`}> */}
                 <h2 className={`${styles.aboutHeader}`}>About</h2>
                 <div className={`${styles.headshotWrapper}`}>
                     <Image
@@ -32,8 +36,7 @@ export default function About() {
                         }}
                     />
                 </div>
-            {/* </div> */}
-            <button onClick={() => setFontSize(fontSize + 0.5)} className={`${styles.fontSizeButton}`}>Enlarge font</button>
+            <button onClick={() => setFontSize(fontSize + 0.1)} className={`${styles.fontSizeButton}`}>Enlarge font</button>
             <p className={`biggerText ${styles.biggerText}`}>Hi there, I'm Andrew.</p>
             <p className={`biggerText ${styles.biggerText}`}>I'm a highly motivated software engineer with six years of experience in media production. My passion lies in finding innovative solutions that not only meet expectations but exceed them. I excel in creative problem solving, project management, and effective communication.</p>
             <p className={`biggerText ${styles.biggerText}`}>Recently, I completed an immersive software engineering bootcamp with General Assembly. Over the course of 12 weeks, I dedicated more than 600 hours to learning various technologies, including Git, Github, HTML, CSS, JavaScript, Node, MongoDB, PostgreSQL, React, Next, Python, Django, and more.</p>

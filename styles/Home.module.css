@@ -8,7 +8,6 @@
 .headline { 
   font-size: 2rem;
   margin: 0;
-  /* border: 3px solid green; */
 }
 
 .headshotWrapper {
@@ -37,52 +36,28 @@
     padding: 0 20rem;
   }
 }
-@media screen and (max-width: 935px) {
-  .main {
-    background-color: rgba(0, 0, 255, 0.268);
-    padding: 0 2.5rem;
-  }
-}
 @media screen and (max-width: 835px) {
-  .main {
-    background-color: rgba(0, 255, 115, 0.268);
-    padding: 0 2.5rem;
+    .main {padding: 0 2.5rem;
   }
 }
 @media screen and (max-width: 662px) {
-  .main {
-    background-color: rgba(255, 200, 0, 0.268);
-    padding: 0.5rem 5% 0;
-  }
+    .main { padding: 0.5rem 5% 0;
+    }
   .flex {
     flex-direction: column;
   }
 }
 @media screen and (max-width: 530px) {
-  .main {
-    background-color: rgba(255, 0, 251, 0.344);
-  }
   .headline { 
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 470px) {
-  .main {
-    background-color: rgba(21, 0, 255, 0.348);
-  }
-}
 @media screen and (max-width: 430px) {
-  .main {
-    background-color: rgba(17, 255, 0, 0.348);
-  }
   .headline { 
     font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 360px) {
-  .main {
-    background-color: rgba(255, 102, 0, 0.348);
-  }
   .headline { 
     font-size: 1rem;
   }

@@ -26,12 +26,15 @@
     width: 10rem;
     height: 10rem;
 }
+
 .fontSizeButton {
     background-color: #27251F;
     display: block;
-    border: 1px solid #16b900;
-    color: #16b900;
+    border: 1px solid rgb(43, 142, 219);
+    color: rgb(43, 142, 219);
     border-radius: 4px;
+    font-family: 'Rajdhani', sans-serif;
+
 }
 
 .fontSizeButton:hover {

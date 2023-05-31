@@ -6,11 +6,11 @@ export default function Projects() {
     const projectList = myProjects.map((project, i) => {
         const techs = project.tools.map((tech, i) => {
             return(
-                <p className={`${styles.technologies}`}>{tech}</p>
+                <p key={`tech-key-${i}`} className={`${styles.technologies}`}>{tech}</p>
             )
         })
         return(
-        <div className={`${styles.column}`}>
+        <div className={`${styles.column}`} key={`key=${i}`}>
             <a href={project.link} target="_blank"><h3 className={`${styles.projectHeader}`}>{project.name}</h3></a>
             <div className={`${styles.techContainer}`}>
             {techs}
