@@ -28,7 +28,7 @@ export default function About() {
                     />
                 </div>
             {/* </div> */}
-            <button onClick={() => setFontSize(fontSize + 0.2)} className={`${styles.fontSizeButton}`}>Enlarge font</button>
+            <button onClick={() => setFontSize(fontSize + 0.1)} className={`${styles.fontSizeButton}`}>Enlarge font</button>
             <p className={`biggerText ${styles.biggerText}`}>Hi there, I'm Andrew.</p>
             <p className={`biggerText ${styles.biggerText}`}>I'm a software engineer with six years of problem solving experience in media production.</p>
             {/* <p className={`biggerText ${styles.biggerText}`}>I'm a highly motivated software engineer with six years of experience in media production. My passion lies in finding innovative solutions that not only meet expectations but exceed them. I excel in creative problem solving, project management, and effective communication.</p> */}

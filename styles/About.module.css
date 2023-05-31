@@ -30,8 +30,8 @@
 .fontSizeButton {
     background-color: #27251F;
     display: block;
-    border: 1px solid rgb(43, 142, 219);
-    color: rgb(43, 142, 219);
+    border: 1px solid #d1d1d1;
+    color: #d1d1d1;
     border-radius: 4px;
     font-family: 'Rajdhani', sans-serif;
 
@@ -39,6 +39,8 @@
 
 .fontSizeButton:hover {
     cursor: pointer;
+    color: #FD5A1E;
+    border: 1px solid #FD5A1E;
 }
 
 .biggerText {

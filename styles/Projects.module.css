@@ -11,6 +11,9 @@
     margin: 0;
     display: inline-block;
 }
+.projectHeader:hover {
+    color:#FD5A1E;
+}
 
 .techContainer {
     display: flex;
