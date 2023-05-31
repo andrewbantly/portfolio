@@ -24,21 +24,16 @@ export default function About() {
                         alt="Andrew Bantly"
                         width={400}
                         height={400}
-                        style={{
-                            "border-radius": "50%",
-                            "border": "3px solid #d1d1d1",
-                            "width": "10rem",
-                            "height": "10rem"
-                        }}
+                        className={`${styles.headshot}`}
                     />
                 </div>
             {/* </div> */}
             <button onClick={() => setFontSize(fontSize + 0.5)} className={`${styles.fontSizeButton}`}>Enlarge font</button>
             <p className={`biggerText ${styles.biggerText}`}>Hi there, I'm Andrew.</p>
             <p className={`biggerText ${styles.biggerText}`}>I'm a highly motivated software engineer with six years of experience in media production. My passion lies in finding innovative solutions that not only meet expectations but exceed them. I excel in creative problem solving, project management, and effective communication.</p>
-            <p className={`biggerText ${styles.biggerText}`}>Recently, I completed an immersive software engineering bootcamp with General Assembly. Over the course of 12 weeks, I dedicated more than 600 hours to learning various technologies, including Git, Github, HTML, CSS, JavaScript, Node, MongoDB, PostgreSQL, React, Next, Python, and more.</p>
-            <p className={`biggerText ${styles.biggerText}`}>Throughout my professional journey, I've had the privilege of collaborating with diverse organizations. I've contributed to Reliable Robotics, a startup focused on automating aircraft operations, as well as the San Francisco Giants, a professional baseball organization. Additionally, I've worked with the CK-12 Foundation, a non-profit organization dedicated to providing free, high-quality education.</p>
-            <p className={`biggerText ${styles.biggerText}`}>When I'm not coding, you can find me engaging in various outdoor activities. I enjoy skiing down challenging slopes, exploring scenic roadways on my bike, and enjoying leisurely walks with my dog, Murphy. As a sports enthusiast, I draw inspiration from teamwork, competition, and the mantra: "pressure is a privilege."</p>
+            <p className={`biggerText ${styles.biggerText}`}>Recently, I completed an immersive software engineering bootcamp with General Assembly. Over the course of 12 weeks, I dedicated more than 600 hours to learning various technologies, including Git, Github, HTML, CSS, JavaScript, Node, MongoDB, PostgreSQL, React, Next, Python, Django, and more.</p>
+            <p className={`biggerText ${styles.biggerText}`}>Throughout my professional journey, I've had the privilege of collaborating with diverse organizations. I've contributed to Reliable Robotics, a startup focused on automating aircraft operations, as well as the San Francisco Giants, a professional baseball organization. Additionally, I've worked with the CK-12 Foundation, a non-profit dedicated to providing free, high-quality education.</p>
+            <p className={`biggerText ${styles.biggerText}`}>When I'm not coding, you can find me engaging in various outdoor activities. I enjoy skiing down challenging slopes, exploring scenic roadways on my bike, and leisurely walks with my dog, Murphy. As a sports enthusiast, I draw inspiration from teamwork, craftsmanship, and the mantra: "pressure is a privilege."</p>
             {/* local images are stored in public folder */}
             {/* regular <img/> tags work as well, if you cannot provide a width and height */}
             {/* using another hosting domain for images */}

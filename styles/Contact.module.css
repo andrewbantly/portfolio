@@ -1,12 +1,37 @@
 .contactInfoContainter {
     align-items: baseline;
     right: 2rem;
-    text-align: right;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
+
 .contactInfo {
     font-size: 1rem;
-    margin: .75rem 0;
+    margin: .4rem 0;
+    display: inline-block;
 }
+
 .contactLinks {
     color: rgb(88, 183, 255) !important;
+}
+
+@media screen and (max-width: 662px) {
+    .contactInfo {
+        margin: .2rem 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .contactInfo {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .contactInfo {
+        margin:  0.1rem 0;
+        font-size: 0.7rem;
+    }
 }

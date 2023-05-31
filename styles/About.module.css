@@ -1,31 +1,30 @@
 .container {
     width: 40%;
     margin: 0 auto;
-    /* border: 3px solid pink; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: nowrap; */
 }
+
 .aboutHeaderContainer {
-    /* border: 3px solid yellow; */
     display: flex;
     justify-content: space-between;
 }
+
 .aboutHeader {
-    /* border: 3px solid salmon; */
     display: inline-block;
     width: fit-content;
     margin: 1rem 0;
-    /* position: relative; */
 }
 
-.headshotWrapper{
-    /* border: 3px solid greenyellow; */
+.headshotWrapper {
     width: fit-content;
     float: right;
     display: block;
-    /* position: relative; */
     margin: 1rem 0 0 0;
+}
+.headshot {
+    border: 3px solid #d1d1d1;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
 }
 .fontSizeButton {
     background-color: #27251F;
@@ -34,10 +33,32 @@
     color: #16b900;
     border-radius: 4px;
 }
-.fontSizeButton:hover{
+
+.fontSizeButton:hover {
     cursor: pointer;
 }
+
 .biggerText {
     color: #d1d1d1;
 }
-
+@media screen and (max-width: 935px) {
+    .headshot {
+        width: 8rem;
+        height: 8rem;
+    }
+  }
+  @media screen and (max-width: 835px) {
+    .headshot {
+        width: 6rem;
+        height: 6rem;
+    }
+  }
+  @media screen and (max-width: 662px) {
+    .fontSizeButton {
+        font-size: 0.7rem;
+    }
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+  }

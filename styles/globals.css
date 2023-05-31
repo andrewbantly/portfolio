@@ -2,31 +2,81 @@ body {
   background-color: #27251F;
   color: #d1d1d1;
 }
+
 header {
   display: flex;
   justify-content: space-between;
 }
+
 h1 {
   color: #FD5A1E;
   font-size: 6rem;
   margin: 0;
   /* border: 3px solid blue; */
 }
-h2{
+
+h2 {
   color: #9ba099;
   margin: 1rem 0;
 }
+
 a {
   text-decoration: none;
   color: #d1d1d1;
 }
+
 nav {
   display: flex;
   margin-left: 2rem;
   font-family: 'Rajdhani', sans-serif;
 }
+
 footer {
   font-family: 'Rajdhani', sans-serif;
   font-size: 0.8rem;
   text-align: center;
+}
+
+@media screen and (max-width: 935px) {
+  h1 {
+    font-size: 5rem;
+  }
+  
+}
+@media screen and (max-width: 835px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 662px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 530px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
 }
