@@ -12,7 +12,7 @@ const myProjects = [
     }, {
         name: "Node application",
         link: "https://pickem.herokuapp.com/",
-        description: "Full stack development of a data-rich Node application using modern JavaScript coding, testing, and debugging techniques that incorporates four relational database management system models, user authentication and authorization via cookies, RESTful APIs, and object-relational mapping (ORM).",
+        description: "Full stack development of a Node application using modern JavaScript coding and debugging techniques that incorporates four relational database management system models, user authentication and authorization, RESTful APIs, and object-relational mapping (ORM).",
         tools: ["Full-stack", "JavaScript", "Node.js","PostgreSQL", "Sequelize", "EJS", "Express", "bcrypt", "crypto-js", "CSS"]
     }, {
         name: "Game",
