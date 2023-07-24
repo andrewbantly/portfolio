@@ -2,7 +2,7 @@ const myProjects = [
     {
         name: "Data visualization",
         link: "https://andrewbantly.github.io/world-class-wines/",
-        description: "Front end web development of a data visualization application that merges Scalable Vector Graphics (SVG), JavaScript, D3.js (Data-Driven Documents), React.js, and Python for data structuring (hash table, node tree).",
+        description: "Front end web development of a data visualization that merges Scalable Vector Graphics, JavaScript, D3.js, React.js, and Python for data structuring.",
         tools: ["JavaScript", "D3.js", "React", "Python", "CSS"]
     }, {
         name: "MERN stack application",
@@ -12,12 +12,12 @@ const myProjects = [
     }, {
         name: "Node application",
         link: "https://pickem.herokuapp.com/",
-        description: "Full stack development of a Node application using modern JavaScript coding and debugging techniques that incorporates four relational database management system models, RESTful APIs, and object-relational mapping (ORM).",
+        description: "Full stack development of a Node application using modern JavaScript coding and debugging techniques that incorporates four relational database management system models, RESTful APIs, and object-relational mapping.",
         tools: ["Full-stack", "JavaScript", "Node.js","PostgreSQL", "Sequelize", "EJS", "Express", "bcrypt", "crypto-js", "CSS"]
     }, {
         name: "Game",
         link: "https://andrewbantly.github.io/Escape-From-Alcatraz/",
-        description: "Front end development of a user-friendly game that incorporates document object model (DOM) manipulation, behavioral logic, and object detection using JavaScript.",
+        description: "Front end development of a user-friendly game that incorporates document object model manipulation, behavioral logic, and object detection using JavaScript.",
         tools: ["JavaScript", "CSS", "HTML"]
     }
 ]
