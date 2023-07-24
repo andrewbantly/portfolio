@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="I'm a software engineer with six years of problem solving experience in media production."
+          content="I'm a software engineer with six years of problem solving experience."
         />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
