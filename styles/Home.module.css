@@ -46,21 +46,24 @@
   .flex {
     flex-direction: column;
   }
+  .headline { 
+    font-size: 1.6rem;
+  }
 }
 @media screen and (max-width: 530px) {
   .headline { 
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 430px) {
   .headline { 
     color:blueviolet;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 @media screen and (max-width: 360px) {
   .headline { 
     color: aqua;
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
