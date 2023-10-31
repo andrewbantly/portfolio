@@ -2,7 +2,7 @@ const myProjects = [
     {
         name: "LeasePeek (in progress)",
         link: "https://github.com/andrewbantly/leasepeek",
-        description: "Building a data-driven web app for large-scale property managers to forecast rent trends using analytics. Utilizing TypeScript, React, Chakra UI, Python, Django, Pandas, MongoDB, PostgreSQL, and REST APIs. Scripting unit and integration tests; leveraging Docker and DevOps for robust, scalable deployments.",
+        description: "Engineering a data-driven web app for large-scale property managers to forecast rent trends using analytics. Utilizing TypeScript, React, Chakra UI, Python, Django, Pandas, MongoDB, PostgreSQL, and REST APIs. Scripting unit and integration tests; leveraging Docker and DevOps for robust, scalable deployments.",
         tools: ["TypeScript", "React", "Chakra UI", "Python", "Django", "Pandas", "MongoDB", "PostgreSQL", "REST APIs", "JSON Web Token"]
     }, {
         name: "GroundBreakers Excavation",
