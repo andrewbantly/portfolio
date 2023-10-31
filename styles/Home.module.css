@@ -59,6 +59,7 @@
 }
 @media screen and (max-width: 360px) {
   .headline { 
-    font-size: 0.8rem;
+    color: aqua;
+    font-size: 0.5rem;
   }
 }
