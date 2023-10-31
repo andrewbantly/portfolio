@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Andrew Bantly | Software Engineer</title>
+        <title>Andrew Bantly | Full Stack Software Engineer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
