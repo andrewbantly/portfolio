@@ -30,7 +30,7 @@ export default function About() {
             {/* </div> */}
             <button onClick={() => setFontSize(fontSize + 0.1)} className={`${styles.fontSizeButton}`}>Enlarge font</button>
             <p className={`biggerText ${styles.biggerText}`}>Hi there, I'm Andrew.</p>
-            <p className={`biggerText ${styles.biggerText}`}>I'm a software engineer with six years of problem solving experience in media production.</p>
+            <p className={`biggerText ${styles.biggerText}`}>I'm a software developer with six years of problem solving experience in media production.</p>
             {/* <p className={`biggerText ${styles.biggerText}`}>I'm a highly motivated software engineer with six years of experience in media production. My passion lies in finding innovative solutions that not only meet expectations but exceed them. I excel in creative problem solving, project management, and effective communication.</p> */}
             <p className={`biggerText ${styles.biggerText}`}>I completed an immersive software engineering bootcamp with General Assembly. Over the course of 12 weeks, I dedicated more than 600 hours to learning various technologies, including Git, GitHub, HTML, CSS, JavaScript, Node, MongoDB, PostgreSQL, React, Next, Python, Django, and more.</p>
             <p className={`biggerText ${styles.biggerText}`}>Throughout my professional journey, I've had the privilege of adapting my skills to diverse industries. I've contributed to Reliable Robotics, a startup focused on automating aircraft operations; the San Francisco Giants, a professional baseball organization; and the CK-12 Foundation, a non-profit dedicated to providing free, high-quality education.</p>
