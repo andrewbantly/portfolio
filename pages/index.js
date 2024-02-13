@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="I'm a software engineer with six years of problem solving experience."
+          content="I'm a software developer with six years of problem solving experience."
         />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,7 +29,7 @@ export default function Home() {
         <header>
           <div>
             <h1>{`Andrew Bantly`}</h1>
-            <p className={`${styles.headline}`}>Full Stack Software Developer</p>
+            <p className={`${styles.headline}`}>Full Stack Software Engineer</p>
           </div>
           <Contact />
         </header>
