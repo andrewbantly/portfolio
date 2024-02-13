@@ -29,7 +29,7 @@ export default function Home() {
         <header>
           <div>
             <h1>{`Andrew Bantly`}</h1>
-            <p className={`${styles.headline}`}>Full Stack Software Engineer</p>
+            <p className={`${styles.headline}`}>Full Stack Software Developer</p>
           </div>
           <Contact />
         </header>
