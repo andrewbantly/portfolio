@@ -1,5 +1,11 @@
 const myProjects = [
     {
+        name: "SoBet",
+        link: "https://sobet.io/",
+        description: "As a Junior Developer at SoBet, I am actively accelerating feature development and bug resolution timelines, resulting in a notable enhancement of team productivity by 15.9%. I've also worked on improving our agile processes by writing documentation. My work involves using PHP and Laravel for backend API solutions, with MySQL for databases. On the front-end side, I use Vue.js and JavaScript to build user interfaces. For mobile app development, I rely on TypeScript, React Native, and Redux.",
+        tools: ["PHP", "Laravel", "mySQL", "TypeScript", "React Native", "Redux", "Vue.js", "JavaScript"]
+    },
+    {
         name: "LeasePeek (in progress)",
         link: "https://github.com/andrewbantly/leasepeek",
         description: "Engineering a data-driven app for large-scale property managers to forecast rent trends using analytics. Utilizing TypeScript, React, Chakra UI, Python, Django, Pandas, MongoDB, PostgreSQL, and REST APIs. Scripting unit and integration tests; leveraging Docker and DevOps for robust, scalable deployments.",
