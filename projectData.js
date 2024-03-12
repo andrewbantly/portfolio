@@ -2,7 +2,7 @@ const myProjects = [
     {
         name: "SoBet",
         link: "https://sobet.io/",
-        description: "As a Junior Developer at SoBet, I am actively accelerating feature development and bug resolution timelines, resulting in a notable enhancement of team productivity by 15.9%. I've also worked on improving our agile processes by writing documentation. My work involves using PHP and Laravel for backend API solutions, with MySQL for databases. On the front-end side, I use Vue.js and JavaScript to build user interfaces. For mobile app development, I rely on TypeScript, React Native, and Redux.",
+        description: "As a Junior Developer at SoBet, I lead in the development and testing of new software, significantly accelerating feature rollouts and bug resolution timelines. My experience encompasses using PHP and Laravel for backend API solutions, with MySQL as the database of choice for all developments. On the front-end, I apply Vue.js and JavaScript to create intuitive user interfaces, while for mobile application development, I rely on TypeScript, React Native, and Redux for building robust solutions. Beyond the development work, I have authored comprehensive documentation to streamline the configuration of local environments, reducing setup time by 60%. Additionally, my efforts in enhancing user support have led to reductions in first reply and requester wait times by 1.1 and 1.2 hours, respectively.",
         tools: ["PHP", "Laravel", "mySQL", "TypeScript", "React Native", "Redux", "Vue.js", "JavaScript"]
     },
     {
