@@ -21,7 +21,7 @@ const myProjects = [
         description: "Programmed an interactive data visualization with JavaScript, React, D3.js, and Python, simplifying wine discovery by preferences, praised for user experience.",
         tools: ["JavaScript", "D3.js", "React", "Python", "CSS"]
     }, {
-        name: "National Parks Explorer",
+        name: "National Parks Explorer (retired)",
         link: "https://nps-explorer.netlify.app/",
         description: "Co-developed a MERN stack app, enabling users to discover U.S. national parks and log visits, with features like REST APIs, JWT authentication, and CRUD operations.",
         tools: ["Full-stack", "JavaScript", "CSS", "React", "Node.js","MongoDB", "Mongoose", "Express", "bcryptjs", "JSON Web Token", "REST APIs"]
