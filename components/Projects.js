@@ -22,7 +22,7 @@ export default function Projects() {
         } else {
             return (
                 <div className={`${styles.column}`} key={`key=${i}`}>
-                    <h3 className={`${styles.projectHeader}`}>{project.name}</h3>
+                    <h3 className={`${styles.projectHeader}`}>{project.name} (retired)</h3>
                     <div className={`${styles.techContainer}`}>
                         {techs}
                     </div>

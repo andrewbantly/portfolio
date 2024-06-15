@@ -5,7 +5,7 @@
 
 .column {
     flex-direction: column-reverse;
-    color: #b69c99;
+    /* color: #b69c99; */
 }
 .projectHeader {
     margin: 0;
