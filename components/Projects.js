@@ -9,27 +9,20 @@ export default function Projects() {
                 <p key={`tech-key-${i}`} className={`${styles.technologies}`}>{tech}</p>
             )
         })
-        if (project.active) {
-            return (
-                <div className={`${styles.column}`} key={`key=${i}`}>
-                    <a href={project.link} target="_blank"><h3 className={`${styles.projectHeader}`}>{project.name}</h3></a>
-                    <div className={`${styles.techContainer}`}>
-                        {techs}
-                    </div>
-                    <p className={`${styles.projectDescription}`}>{project.description}</p>
+        return (
+            <div className={`${styles.column}`} key={`key=${i}`}>
+                {
+                    project.active ?
+                        <a href={project.link} target="_blank"><h3 className={`${styles.projectHeader}`}>{project.name}</h3></a>
+                        :
+                        <h3 className={`${styles.projectHeaderRetired}`}>{project.name} (retired)</h3>
+                }
+                <div className={`${styles.techContainer}`}>
+                    {techs}
                 </div>
-            )
-        } else {
-            return (
-                <div className={`${styles.column}`} key={`key=${i}`}>
-                    <h3 className={`${styles.projectHeader}`}>{project.name} (retired)</h3>
-                    <div className={`${styles.techContainer}`}>
-                        {techs}
-                    </div>
-                    <p className={`${styles.projectDescription}`}>{project.description}</p>
-                </div>
-            )
-        }
+                <p className={`${styles.projectDescription}`}>{project.description}</p>
+            </div>
+        )
     })
     return (
         <div className={`${styles.container}`}>

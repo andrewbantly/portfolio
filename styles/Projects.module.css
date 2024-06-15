@@ -7,7 +7,7 @@
     flex-direction: column-reverse;
     /* color: #b69c99; */
 }
-.projectHeader {
+.projectHeader, .projectHeaderRetired {
     margin: 0;
     display: inline-block;
 }
