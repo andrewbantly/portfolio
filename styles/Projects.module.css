@@ -5,7 +5,7 @@
 
 .column {
     flex-direction: column-reverse;
-    /* color: #b69c99; */
+    color: #b69c99;
 }
 .projectHeader, .projectHeaderRetired {
     margin: 0;
@@ -14,7 +14,9 @@
 .projectHeader:hover {
     color:#FD5A1E;
 }
-
+.retired {
+    color:#FD5A1E;
+}
 .techContainer {
     display: flex;
     flex-wrap: wrap;
