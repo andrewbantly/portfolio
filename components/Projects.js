@@ -16,7 +16,8 @@ export default function Projects() {
                         <a href={project.link} target="_blank"><h3 className={`${styles.projectHeader}`}>{project.name}</h3></a>
                         :
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <h3 className={`${styles.projectHeaderRetired}`}>{project.name} <p className={`${styles.retired}`}>(retired)</p></h3>
+                            <h3 className={`${styles.projectHeaderRetired}`}>{project.name}</h3>
+                            <p className={`${styles.retired}`}>(retired)</p>
                         </div>
                 }
                 <div className={`${styles.techContainer}`}>
