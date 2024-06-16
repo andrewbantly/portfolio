@@ -15,7 +15,7 @@ export default function Projects() {
                     project.active ?
                         <a href={project.link} target="_blank"><h3 className={`${styles.projectHeader}`}>{project.name}</h3></a>
                         :
-                        <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div style={{ display: 'flex', flexDirection: 'row' , textAlign: 'center'}}>
                             <h3 className={`${styles.projectHeaderRetired}`}>{project.name}</h3>
                             <p className={`${styles.retired}`}>(retired)</p>
                         </div>

@@ -7,9 +7,10 @@
     flex-direction: column-reverse;
     color: #b69c99;
 }
-.projectHeader, .projectHeaderRetired {
+.projectHeader, .projectHeaderRetired, .retired {
     margin: 0;
     display: inline-block;
+    color: 'white';
 }
 .projectHeader:hover {
     color:#FD5A1E;
