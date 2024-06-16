@@ -17,7 +17,7 @@ export default function Projects() {
                         :
                         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
                             <h3 className={`${styles.projectHeaderRetired}`}>{project.name}</h3>
-                            <p className={`${styles.retired}`}>(retired)</p>
+                            <p className={`${styles.retired}`}>({project.deactivateDescription})</p>
                         </div>
                 }
                 <div className={`${styles.techContainer}`}>
