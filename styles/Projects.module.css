@@ -10,13 +10,14 @@
 .projectHeader, .projectHeaderRetired, .retired {
     margin: 0;
     display: inline-block;
-    color: 'white';
+    color: #ffffff;
 }
 .projectHeader:hover {
     color:#FD5A1E;
 }
 .retired {
     color:#FD5A1E;
+    margin-left: 2px;
 }
 .techContainer {
     display: flex;
