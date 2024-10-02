@@ -34,14 +34,14 @@ const myProjects = [
         description: "Co-developed a MERN stack app, enabling users to discover U.S. national parks and log visits, with features like REST APIs, JWT authentication, and CRUD operations.",
         tools: ["Full-stack", "JavaScript", "CSS", "React", "Node.js","MongoDB", "Mongoose", "Express", "bcryptjs", "JSON Web Token", "REST APIs"],
         active: false,
-        deactivateDescription: 'retired',
+        deactivateDescription: 'sunsetted',
     }, {
         name: "Major League Baseball Pick'em",
         link: "https://pickem.herokuapp.com/",
         description: "Crafted a full-stack Node app using JavaScript, featuring real-time game odds, social interactions, and performance metrics, supported by relational databases.",
         tools: ["Full-stack", "JavaScript", "Node.js","PostgreSQL", "Sequelize", "EJS", "Express", "bcrypt", "crypto-js", "CSS"],
         active: false,
-        deactivateDescription: 'retired',
+        deactivateDescription: 'sunsetted',
     }, {
         name: "Escape From Alcatraz",
         link: "https://andrewbantly.github.io/Escape-From-Alcatraz/",
