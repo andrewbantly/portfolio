@@ -12,8 +12,8 @@ const myProjects = [
         link: "https://github.com/andrewbantly/leasepeek-server",
         description: "Engineering a data-driven app for large-scale property managers to forecast rent trends using analytics. Utilizing TypeScript, React, Chakra UI, Python, Django, Pandas, MongoDB, PostgreSQL, and REST APIs. Scripting unit and integration tests; leveraging Docker for robust, scalable deployments.",
         tools: ["TypeScript", "React", "Chakra UI", "Python", "Django", "Pandas", "MongoDB", "PostgreSQL", "REST APIs", "JSON Web Token", "ApexCharts.js", "Coverage.py", "Docker"],
-        active: true,
-        deactivateDescription: 'in progress',
+        active: false,
+        deactivateDescription: 'deferred',
     }, {
         name: "GroundBreakers Excavation",
         link: "https://groundbreakersexcavation.com/",
