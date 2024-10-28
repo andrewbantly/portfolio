@@ -18,10 +18,10 @@ const monthsCoding = (now.getUTCFullYear() - startCoding.getUTCFullYear()) * 12 
                 {`
                     .biggerText {
                         font-size: ${fontSize}rem;
+                        font-family: sans-serif;
                     }
                 `}
             </style>
-            {/* <div className={`${styles.aboutHeaderContainer}`}> */}
                 <h2 className={`${styles.aboutHeader}`}>About</h2>
                 <div className={`${styles.headshotWrapper}`}>
                     <Image
@@ -32,7 +32,6 @@ const monthsCoding = (now.getUTCFullYear() - startCoding.getUTCFullYear()) * 12 
                         className={`${styles.headshot}`}
                     />
                 </div>
-            {/* </div> */}
             <button onClick={() => setFontSize(fontSize + 0.1)} className={`${styles.fontSizeButton}`}>Enlarge font</button>
             <p className={`biggerText ${styles.biggerText}`}>Hi there, I'm Andrew.</p>
             <p className={`biggerText ${styles.biggerText}`}>After six years in media production, I’ve dedicated the past {monthsCoding} months to a persistent routine that prioritizes learning core programming principles and applying new skills through developing software. I’m proud of what I’ve accomplished so far, from completing a coding bootcamp, to creating a website for a small business, and working as a junior software developer at a startup.</p>
