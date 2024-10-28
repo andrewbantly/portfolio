@@ -15,7 +15,7 @@ export default function Projects() {
                     project.active ?
                         <a href={project.link} target="_blank"><h3 className={`${styles.projectHeader}`}>{project.name}</h3></a>
                         :
-                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                             <h3 className={`${styles.projectHeaderRetired}`}>{project.name}</h3>
                             <p className={`${styles.retired}`}>({project.deactivateDescription})</p>
                         </div>
@@ -23,7 +23,7 @@ export default function Projects() {
                 <div className={`${styles.techContainer}`}>
                     {techs}
                 </div>
-                <p className={[`${styles.projectDescription}`, styles.bodyCopy]}>{project.description}</p>
+                <p className={`${styles.projectDescription} ${styles.bodyCopy}`}>{project.description}</p>
             </div>
         )
     })
