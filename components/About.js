@@ -18,7 +18,6 @@ const monthsCoding = (now.getUTCFullYear() - startCoding.getUTCFullYear()) * 12 
                 {`
                     .biggerText {
                         font-size: ${fontSize}rem;
-                        font-family: sans-serif;
                     }
                 `}
             </style>
