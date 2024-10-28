@@ -42,6 +42,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+    color: greenyellow;
 }
 
 @media screen and (max-width: 662px) {
