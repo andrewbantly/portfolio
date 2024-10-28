@@ -5,7 +5,7 @@ import { useState } from "react"
 import Image from "next/image"
 
 export default function About() {
-    const [fontSize, setFontSize] = useState(0.8);
+    const [fontSize, setFontSize] = useState(1);
     
 const startCoding = new Date(Date.UTC(2023, 2, 1));
 const now = new Date();
