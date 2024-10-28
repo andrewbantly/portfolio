@@ -45,6 +45,9 @@
 
 .biggerText {
     color: #d1d1d1;
+}
+
+.bodyCopy {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;

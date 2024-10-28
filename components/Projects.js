@@ -23,7 +23,7 @@ export default function Projects() {
                 <div className={`${styles.techContainer}`}>
                     {techs}
                 </div>
-                <p className={`${styles.projectDescription}`}>{project.description}</p>
+                <p className={[styles.projectDescription, styles.bodyCopy]}>{project.description}</p>
             </div>
         )
     })
