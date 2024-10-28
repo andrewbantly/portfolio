@@ -45,8 +45,11 @@
 
 .biggerText {
     color: #d1d1d1;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
+
 @media screen and (max-width: 935px) {
     .headshot {
         width: 8rem;
