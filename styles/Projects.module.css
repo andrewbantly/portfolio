@@ -33,13 +33,16 @@
     display: inline;
     width: fit-content;
 }
+
 .projectDescription {
     margin-top: 0.1rem;
 }
+
 .bodyCopy {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
+    color: aqua;
 }
 
 @media screen and (max-width: 662px) {
