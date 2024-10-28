@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Andrew Bantly | Full Stack Software Engineer</title>
+        <title>Andrew Bantly | Software Engineer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
@@ -29,7 +29,7 @@ export default function Home() {
         <header>
           <div>
             <h1>{`Andrew Bantly`}</h1>
-            <p className={`${styles.headline}`}>Full Stack Software Engineer</p>
+            <p className={`${styles.headline}`}>Software Engineer</p>
           </div>
           <Contact />
         </header>
