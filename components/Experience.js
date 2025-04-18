@@ -1,9 +1,9 @@
-import myProjects from "@/projectData"
+import myExperience from "@/experienceData"
 import styles from "@/styles/Projects.module.css"
 
-export default function Projects() {
+export default function Experience() {
 
-    const projectList = myProjects.map((project, i) => {
+    const experienceList = myExperience.map((project, i) => {
         const techs = project.tools.map((tech, i) => {
             return (
                 <p key={`tech-key-${i}`} className={`${styles.technologies}`}>{tech}</p>
@@ -23,14 +23,22 @@ export default function Projects() {
                 <div className={`${styles.techContainer}`}>
                     {techs}
                 </div>
-                <p className={`${styles.projectDescription} ${styles.bodyCopy}`}>{project.description}</p>
+                <ul className={`${styles.experienceDescription}`}>
+                    {
+                        project.description.map((item, index) => (
+                            <li 
+                             className={`${styles.bodyCopy}`}
+                            key={index}>{item}</li>
+                        ))
+                    }
+                </ul>
             </div>
         )
     })
     return (
         <div>
-            <h2>Projects</h2>
-            {projectList}
+            <h2>Experience</h2>
+            {experienceList}
         </div>
     )
 }

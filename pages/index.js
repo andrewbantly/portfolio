@@ -2,10 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-// import Projects from './projects'
-// import About from './about'
 import About from '@/components/About.js'
 import Projects from '@/components/Projects.js'
+import Experience from '@/components/Experience'
 import Contact from '@/components/Contact.js'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -34,7 +33,10 @@ export default function Home() {
           <Contact />
         </header>
         <div className={`${styles.flex}`}>
+          <div className={`${styles.container}`}>
+          <Experience/>
           <Projects></Projects>
+          </div>
           <About></About>
         </div>
       </main>
